@@ -14,7 +14,7 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ### Links
 
--   Solution URL: [Tip Calculator](https://williamssam.github.io/tip-calculator)
+-   Solution URL: [Frontend Page](https://www.frontendmentor.io/solutions/tip-converter-with-sass-and-vanilla-js-KeObRnHnJ)
 -   Live Site URL: [Tip Calculator](https://williamssam.github.io/tip-calculator)
 
 ### Built with
