@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<title>Frontend Mentor | Tip calculator app</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+	</head>
+	<body>
+		<section class="section">
+			<img src="./images/logo.svg" alt="" class="logo" />
+
+			<section class="tip-section">
+				<article class="calculation-section">
+					<div class="wrapper">
+						<h2 class="title">Bill</h2>
+						<div class="input-container">
+							<img
+								src="./images/icon-dollar.svg"
+								alt=""
+								class="icon"
+							/>
+							<div>
+								<input
+									type="number"
+									name="number"
+									id="bill"
+									placeholder="0"
+									class="input"
+								/>
+								<label for="bill"></label>
+							</div>
+						</div>
+					</div>
+
+					<div class="wrapper">
+						<h2 class="title">Select Tip %</h2>
+						<div class="tip-container">
+							<article class="tip-one">
+								<input
+									type="radio"
+									name="radio"
+									id="tip-one"
+									data-tip="5"
+								/>
+								<div>
+									<span>5%</span>
+								</div>
+							</article>
+
+							<article class="tip-two">
+								<input
+									type="radio"
+									name="radio"
+									id="tip-two"
+									data-tip="10"
+								/>
+								<div>
+									<span>10%</span>
+								</div>
+							</article>
+
+							<article class="tip-three">
+								<input
+									type="radio"
+									name="radio"
+									id="tip-three"
+									data-tip="15"
+								/>
+								<div>
+									<span>15%</span>
+								</div>
+							</article>
+
+							<article class="tip-four">
+								<input
+									type="radio"
+									name="radio"
+									id="tip-four"
+									data-tip="25"
+								/>
+								<div>
+									<span>25%</span>
+								</div>
+							</article>
+
+							<article class="tip-five">
+								<input
+									type="radio"
+									name="radio"
+									id="tip-five"
+									data-tip="50"
+								/>
+								<div>
+									<span>50%</span>
+								</div>
+							</article>
+
+							<article class="custom-tip">
+								<input
+									type="text"
+									name="tip"
+									id="tip"
+									placeholder="Custom"
+									class="custom-tip"
+								/>
+							</article>
+						</div>
+					</div>
+
+					<div class="wrapper">
+						<h2 class="title">Number of people</h2>
+						<div class="input-container">
+							<img
+								src="./images/icon-person.svg"
+								alt=""
+								class="icon"
+							/>
+							<div>
+								<input
+									type="number"
+									name="number"
+									id="people"
+									placeholder="0"
+									class="input"
+								/>
+								<label for="people"></label>
+							</div>
+						</div>
+					</div>
+				</article>
+
+				<article class="answer-section">
+					<div class="answer-section-inner">
+						<div class="tip-amount">
+							<div>
+								<p>Tip Amount</p>
+								<p>/ person</p>
+							</div>
+
+							<h2 class="tips">$00.00</h2>
+						</div>
+						<div class="tip-amount">
+							<div>
+								<p>Total</p>
+								<p>/ person</p>
+							</div>
+
+							<h2 class="per-person">$00.00</h2>
+						</div>
+					</div>
+					<button type="button" class="reset-btn" disabled>
+						Reset
+					</button>
+				</article>
+			</section>
+		</section>
+
+		<div class="attribution">
+			Challenge by
+			<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				>Frontend Mentor</a
+			>. Coded by
+			<a href="https://twitter.com/williams_codes">Williams Samuel</a>.
+		</div>
+
+		<script src="./main.js"></script>
+	</body>
+</html>
