@@ -10,6 +10,7 @@ const customTip = document.querySelector('.custom-tip')
 // intial number of people (value)
 people.value = 1
 
+// function to calculate tip
 function tipCalculator(billValue, calculateTip, numberOfPeople) {
 	const calculatedTip = (billValue * calculateTip).toPrecision(3)
 	const totalAmount = (
